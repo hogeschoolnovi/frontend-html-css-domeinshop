@@ -1,3 +1,4 @@
+
 /*////////////////////////////////////////////////////////////////////////
 Table of Contents:
     1. Global Styles
@@ -11,28 +12,82 @@ Table of Contents:
 ////////////////////////////////////////////////////////////////////////*/
 
 
-
 /*////////////////////////
     1. Global Styles
 ////////////////////////*/
+* {
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+}
+
+body {
+    font-family: Poppins, sans-serif;
+    color:#1C2B32;
+
+}
+main {
+    width: 1000px;
+    margin: 0 auto;
+}
 
 
 
-/*////////////////////////
+/*////////////////////////(grijs #899CA0 en donkergroen #1C2B32)
+
+
     2. Typography
 ////////////////////////*/
 
+h1 {
+    font-weight: 700;
+    font-size: 120px;
+}
+h2 {
+    font-weight: 700;
+    font-size: 32px;
+    margin:64px 0;
+
+}
+h1,
+h2 {
+    text-align: center;
+    }
+    input,
+    button {
+        font-family: inherit;
+    }
+ a,
+ a:link,
+ a:visited {
+    color: #899CA0;
+    text-decoration: underline;
+}
+ a:hover {
+    text-decoration: none;
+ }
 
 
-/*////////////////////////
-    3. Areas
-////////////////////////*/
+
+
+ 3. Areas
 
 
 
-/*///////////// 3.1 Header /////////////*/
+     /*///////////// 3.1 Header /////////////*/
+     header {
+       background-image:url("../assets/images/mountains.jpg");
+       background-size: cover;
+       background-position: top;
 
+}
+    .hero-content {
+        padding: 150px 0 400px 0;
+        margin: 0 auto;
+        text-align: center;
+        max-width: 1000px;
 
+}
 
 /*///////////// 3.2 Testimonial /////////////*/
 
